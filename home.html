@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./css/forhome.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<!-- <script src="startTime.js" type="javascript"></script> -->
+<body class="w3-light-grey w3-content" onload="startTime()">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-dark-grey w3-animate-left" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="./img/off1.jpg" alt="profile" class="w3-round"><br><br>
+    <h4><b>Mental Health Blog</b></h4>
+
+  </div>
+  <div class="w3-bar-block">
+    <a href="#blog" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>My Blog</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+    <a href="login.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>LOGOUT</a>
+
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.facebook.com"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+&nbsp;
+
+    <a href="https://www.twitter.com"><i class="fa fa-twitter w3-hover-opacity"></i></a>&nbsp;
+    <a href="https://in.linkedin.com"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main">
+
+  <!-- Header -->
+  <header id="blog">
+    <a href="#"><img src="./img/off1.jpg" alt="profile" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Blog</b></h1>
+
+    <div class="w3-grey w3-center w3-button w3-block w3-padding-16 editing_timer w3-topbar w3-bottombar w3-leftbar w3-rightbar"  aria-live="polite" aria-atomic="true">
+        <p id="timer" style="font-size:4vw;">
+            <script src="startTime.js"></script>
+        </p>    
+      </div>
+    </div>
+  </header>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding resize">
+    <div class="w3-third w3-container w3-margin-bottom gridgrid">
+      <img src="./img/m1.jpg" alt="Anxiety" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Anxiety</b></p>
+        <p>Anxiety is your body’s natural response to stress. It’s a feeling of fear or apprehension about what’s to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./img/m4.jpeg" alt="Mental Health"  class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Mental Health</b></p>
+        <p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./img/m3.jpeg" alt="Human Brain"  class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Human Brain</b></p>
+        <p>The human brain is the command center for the human nervous system. It receives signals from the body's sensory organs and outputs information to the muscles. Basic mammalary brain structure remains same.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding resize">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./img/f1.jpg" alt="overthinking" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Overthinking</b></p>
+        <p>overthinking is caused by a single emotion: fear. When you focus on all the negative things that might happen, it's easy to become paralyzed. Next time you sense that you starting to spiral in that direction, stop.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./img/f3.jpg" alt="logic v/s emotion"  class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Logical v/s Emotional brain</b></p>
+        <p>The age-old tug-of-war between the head and the heart. While humans should make logical choices, they largely base what they know and decide on their emotions, memories, opinions, and life experiences. It’s something to take into consideration during the marketing strategy process.
+
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./img/m6.png" alt="mental health at workplace"  class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Mental Health at workplace</b></p>
+        <p>Studies have shown being unhappy with or unfulfilled by work can take a toll on our health, relationships, and even lifespan. Those in unhealthy work environments tend to gain more weight, have more healthcare appointments, and have higher rates of absenteeism. Stress from work can also impact their family life, mental health, and even increase risks for chronic illnesses and heart attacks.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="./img/he1.jpg" alt="happy" >
+    </div>
+    <div class="w3-col m6">
+      <img src="./img/he3.jpg" alt="happy" >
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large">
+    <h4><b>About the Issue</b></h4>
+<p>Around the world, mental health is deteriorating. Between 2005 to 2015 the amount of people suffering from depression has increased by eighteen percent. Likewise, over that same time, the amount of people living with anxiety has increased by nearly fifteen percent. It is estimated that hundreds of millions of people currently have depression, anxiety, or a combination of the two. In this post, I will look into the causes of these disorders, their global context, and describe solutions to decrease their prevalence.
+
+Depression affects over 300 million people worldwide and is separated into two subgroups — major depressive disorder and dysthymia. The former typified by extreme sadness, tiredness, and impassiveness and the latter being a longer yet less intense version of the former. Neurologically, depression is caused by a deficiency of neurotransmitters (chemicals which transmit messages between neurons), specifically dopamine, serotonin, and norepinephrine.</p>
+  
+
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-white">
+    <h4 id="contact"><b>Send Your Issues</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24">
+      <div class="w3-third w3-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>stutiswarnkar123@gmail.com</p>
+      </div>
+      <div class="w3-third w3-amber">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Ghaziabad, India</p>
+      </div>
+      <div class="w3-third w3-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>9876543210</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-amber">
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <h3>FOOTER</h3>
+      <p>A recent survey showed 41 percent of employees from a range of industries reported high levels of anxiety in the workplace.
+
+      </p>
+      <p>Powered by <a href="https://medium.com/@blumfest/global-depression-and-anxiety-148afd856432" style="color:#003166;" target="_blank">MEDIUM</a></p>
+    </div>
+
+    <div class="w3-half">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+
+          <span class="w3-large"> <a href="https://www.nami.org/learn-more/mental-health-conditions/schizophrenia" style="color:#003166;">Schizophrenia</a></span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <span class="w3-large"> <a href="https://www.nami.org/learn-more/mental-health-conditions/bipolar" style="color:#003166;"> Bipolar Disorder</a></span><br>
+          <span>Praes tinci sed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-half">
+
+    </div>
+
+  </div>
+  </footer>
+
+  
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
